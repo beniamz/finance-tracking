@@ -106,7 +106,7 @@ const App = () => {
     
     setLoading(true);
 
-    await axiosgit(axiosParams);
+    await axios(axiosParams);
     
     const newData = data.filter((item) => item.id !== id);
 
@@ -129,7 +129,7 @@ const App = () => {
         <h5 className="text-center mb-1">Aplikasi Tracking Keuangan </h5>
         <h4 className="text-center text-warning mb-2">WAROENG NENEK HJ. ICIH</h4>
         <div className="d-flex justify-content-center align-items-center">
-          <img src="/image.svg" alt="img" 
+          <img src="/image.svg" alt="logo-warung" 
           style={{
             objectFit: "scale-down",
             width: "10rem"
